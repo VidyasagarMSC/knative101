@@ -15,6 +15,14 @@ knctl is a new Knative CLI providing a simple set of commands to interact with a
 
   chmod +x /usr/local/bin/knctl
   ```
+  On macOS, you can install `knctl` via homebrew
+  ```
+  brew install starkandwayne/kubernetes/knctl
+  ```
+2. To confirm the step, run
+  ```
+  knctl version
+  ```
 
 ### Deploy vnext
 1. Let's deploy vnext, but instead of kubectl with the service.yaml file, let's use knctl. By providing Knative with the source of our app and the image to push to dockerhub, we'll get an application with a URL we can access.

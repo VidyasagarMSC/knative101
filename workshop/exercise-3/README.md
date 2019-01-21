@@ -11,7 +11,7 @@ What hostname should we use? Luckily for us, IBM Kubernetes Service gave us an e
 1. First, let's get the ingress subdomain for our cluster.
 
 	```
-	ibmcloud ks cluster-get <my-cluster-name>
+	ibmcloud cs cluster-get <my-cluster-name>
 	```
 
 	Example Output:
